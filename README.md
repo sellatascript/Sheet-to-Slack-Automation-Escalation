@@ -76,6 +76,11 @@ function onEditTrigger(e) {
 
 > **Note:** Webhook URL and Slack Member IDs above are placeholders. In production, store these as [Script Properties](https://developers.google.com/apps-script/guides/properties) rather than hardcoding them in the script.
 
+
+## ⚙️ Output 
+<img width="1802" height="523" alt="Sync" src="https://github.com/user-attachments/assets/1fd276b2-2ea2-4200-9fbf-f4462776821f" />
+
+
 ## 📈 Impact
 
 | Metric | Before | After |
