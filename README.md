@@ -1,4 +1,4 @@
-# 🔔 Real-Time Automated Data Reporting System (Google Sheets → Slack Webhook)
+# 🔔 Real-Time Escalation Reporting System (Google Sheets → Slack )
 
 Automated escalation alert pipeline that pushes case data from a master Google Sheet straight into Slack the moment it's updated — cutting notification delay from 2 hours to under 10 seconds.
 
