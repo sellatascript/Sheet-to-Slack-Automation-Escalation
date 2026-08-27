@@ -27,6 +27,16 @@ Built to solve a bottleneck in Escalation Management: the team was manually moni
 3. **Format & Tag** – Data is assembled into a Slack message, tagging the responsible team member via their Slack Member ID so the alert reaches the right person directly.
 4. **Deliver** – The message is wrapped in a JSON payload and sent via a `POST` request to the Slack Incoming Webhook URL, posting instantly to the designated channel.
 
+```jsx
+Trigger (Agent trigger fires in Google App Script)
+↓
+Extract (The script reads the edited row and pulls the relevant fields (Case Number, User ID, Name, Merchant, Nominal Transaksi, Type, Notes)
+↓
+Format & Tag (Data is assembled into a Slack message, tagging the responsible team member via their Slack Member ID so the alert reaches the right person directly)
+↓
+Deliver (The message is wrapped in a JSON payload and sent via a POST request to the Slack Incoming Webhook URL, posting instantly to the designated channel)
+```
+
 ## 💻 Code Sample
 
 ```javascript
